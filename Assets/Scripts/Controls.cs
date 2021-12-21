@@ -10,11 +10,6 @@ public class Controls : MonoBehaviour
 
     public static int curLevel = 0;
 
-    void Update()
-    {
-       
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.transform.tag == "Finish")
