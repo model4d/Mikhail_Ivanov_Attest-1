@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Donor : MonoBehaviour
 {
@@ -18,7 +19,10 @@ public class Donor : MonoBehaviour
         number = UnityEngine.Random.Range(3, 11);
         text.text = $"{number}";
     }
-
+    private void Update()
+    {
+        
+    }
     private void OnTriggerEnter(Collider other)
     {
 
